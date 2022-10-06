@@ -1,6 +1,6 @@
 {
-  "name": "@vampire.rip/eslint-config",
-  "version": "0.1.0",
+  "name": "@vampire-rip/eslint-config",
+  "version": "0.0.0-smoke-test",
   "description": "eslint config for vampire project (react-ts based on xo)",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/eslint": "^8.4.6",
     "@types/react": "^18.0.21",
-    "@vampire.rip/eslint-config": "link:",
+    "@vampire-rip/eslint-config": "link:",
     "react": "^18.2.0",
     "typescript": "*"
   },

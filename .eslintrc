@@ -1,4 +1,4 @@
 {
   "root": true,
-  "extends": ["@vampire.rip"]
+  "extends": ["@vampire-rip"]
 }

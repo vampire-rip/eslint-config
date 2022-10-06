@@ -3,7 +3,7 @@ eslint config for vampire project(react-ts based on xo)
 ## How to use
 
 ```
-pnpm install -D @vampire.rip/eslint-config
+pnpm install -D @vampire-rip/eslint-config
 ```
 
 then create `.eslintrc` at desired location with:
@@ -11,7 +11,7 @@ then create `.eslintrc` at desired location with:
 ```js
 {
   "root": true,
-  "extends": ["@vampire.rip"]
+  "extends": ["@vampire-rip"]
 }
 ```
 
