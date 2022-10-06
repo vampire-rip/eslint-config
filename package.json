@@ -1,0 +1,44 @@
+{
+  "name": "@vampire.rip/eslint-config",
+  "version": "0.1.0",
+  "description": "eslint config for vampire project (react-ts based on xo)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint-config",
+    "react",
+    "typescript"
+  ],
+  "author": "SunriseFox",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5.31.0",
+    "@typescript-eslint/parser": ">=5.31.0",
+    "eslint": ">=8.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-xo": "^0.42.0",
+    "eslint-config-xo-space": "^0.33.0",
+    "eslint-config-xo-typescript": "^0.53.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.6",
+    "@types/react": "^18.0.21",
+    "@vampire.rip/eslint-config": "link:",
+    "react": "^18.2.0",
+    "typescript": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "typescript": "*"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  }
+}
