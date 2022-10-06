@@ -58,6 +58,12 @@ module.exports = {
         'import/no-default-export': 'off',
       },
     },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        '@typescript-eslint/triple-slash-reference': 'off',
+      },
+    },
   ],
   parserOptions: {
     ecmaVersion: 'latest',
