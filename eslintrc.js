@@ -2,6 +2,8 @@
 const tsRules = {
   '@typescript-eslint/object-curly-spacing': ['error', 'always'],
   '@typescript-eslint/ban-types': 'off',
+  '@typescript-eslint/indent': 'off',
+  '@typescript-eslint/no-unsafe-assignment': 'off',
 };
 
 /** @type {import('eslint').Linter.RulesRecord} */
@@ -16,6 +18,7 @@ const rules = {
   'func-names': ['error', 'always'],
   eqeqeq: ['error', 'smart'],
   'no-eq-null': 'off',
+  'capitalized-comments': 'off',
 };
 
 /** @type {import('eslint').Linter.BaseConfig} */
