@@ -4,6 +4,8 @@ const tsRules = {
   '@typescript-eslint/ban-types': 'off',
   '@typescript-eslint/indent': 'off',
   '@typescript-eslint/no-unsafe-assignment': 'off',
+  '@typescript-eslint/parameter-properties': ['error', {}],
+  '@typescript-eslint/quotes': 'off',
 };
 
 /** @type {import('eslint').Linter.RulesRecord} */
@@ -19,6 +21,7 @@ const rules = {
   eqeqeq: ['error', 'smart'],
   'no-eq-null': 'off',
   'capitalized-comments': 'off',
+  'import/named': 'off',
 };
 
 /** @type {import('eslint').Linter.BaseConfig} */
@@ -27,8 +30,8 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  plugins: ['react', 'react-hooks'],
-  extends: ['xo-space', 'plugin:react/recommended', 'plugin:prettier/recommended'],
+  plugins: ['react', 'react-hooks', 'import'],
+  extends: ['xo-space', 'plugin:react/recommended', 'plugin:import/recommended', 'plugin:prettier/recommended'],
   overrides: [
     {
       files: ['*.js', 'scripts/*.js'],
